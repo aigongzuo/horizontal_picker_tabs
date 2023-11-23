@@ -3,6 +3,7 @@ description: A customizable Flutter library for horizontal-scrolling picker tabs
 ## Features
 
 <img src="https://raw.githubusercontent.com/aigongzuo/horizontal_picker_tabs/main/img_0.webp" width="240px" height="426px"/>
+<img src="https://raw.githubusercontent.com/aigongzuo/horizontal_picker_tabs/main/img_1.webp" width="426px" height="240px"/>
 
 ## Getting started
 

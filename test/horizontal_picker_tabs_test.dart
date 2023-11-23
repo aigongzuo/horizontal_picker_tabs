@@ -1,6 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:horizontal_picker_tabs/horizontal_picker_tabs.dart';
 
 void main() {
   test('adds one to input values', () {

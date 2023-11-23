@@ -1,7 +1,7 @@
 name: horizontal_picker_tabs
 description: A customizable Flutter library for horizontal-scrolling picker tabs.
-version: 1.0.0
-homepage: https://github.com/aigongzuo/horizontal_picker_tabs
+version: 1.0.1
+homepage: https://github.com/aigongzuo/horizontal_picker_tabs.git
 
 environment:
   sdk: '>=3.0.6 <4.0.0'

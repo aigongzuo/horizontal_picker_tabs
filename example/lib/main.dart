@@ -21,7 +21,8 @@ class MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
   late TabController _tabController;
 
   int currentPage = 0;
-  TextStyle labelStyle = const TextStyle(fontSize: 16, fontWeight: FontWeight.w600);
+  TextStyle labelStyle =
+      const TextStyle(fontSize: 16, fontWeight: FontWeight.w600);
   TextStyle unselectedLabelStyle = const TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w600,
@@ -70,7 +71,8 @@ class MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
           child: Image(
             height: 20,
             fit: BoxFit.fill,
-            image: AssetImage("assets/images/lm_horizontal_picker_bottom_icon.png"),
+            image: AssetImage(
+                "assets/images/lm_horizontal_picker_bottom_icon.png"),
           ),
         ),
 

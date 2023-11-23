@@ -54,15 +54,20 @@ class HorizontalPickerTabBarState extends State<HorizontalPickerTabBar> {
 
   getTitleViewList(List<String> tabs) {
     double screenWidth = MediaQuery.of(context).size.width;
-    marginTabBarStart = screenWidth / 2 - getTextWidth(tabs[0], widget.labelStyle) / 2 - tabPaddingLeftRight;
-    marginTabBarEnd = screenWidth / 2 - getTextWidth(tabs[tabs.length - 1], widget.labelStyle) / 2 - tabPaddingLeftRight;
+    marginTabBarStart = screenWidth / 2 -
+        getTextWidth(tabs[0], widget.labelStyle) / 2 -
+        tabPaddingLeftRight;
+    marginTabBarEnd = screenWidth / 2 -
+        getTextWidth(tabs[tabs.length - 1], widget.labelStyle) / 2 -
+        tabPaddingLeftRight;
 
     //遍历dataListList
     List<Widget> list = [];
     int len = tabs.length;
     for (int i = 0; i < len; i++) {
       list.add(Container(
-        padding: EdgeInsetsDirectional.only(start: tabPaddingLeftRight, end: tabPaddingLeftRight),
+        padding: EdgeInsetsDirectional.only(
+            start: tabPaddingLeftRight, end: tabPaddingLeftRight),
         margin: EdgeInsetsDirectional.only(
           start: i == 0 ? marginTabBarStart : 0,
           end: i == len - 1 ? marginTabBarEnd : 0,
